@@ -3,12 +3,12 @@ import sys
 
 def main():
     pg.display.set_caption("はじめてのPygame")
-    screen = pg.display.set_mode((800, 600))
+    screen = pg.display.set_mode((400, 500))
     clock = pg.time.Clock()
     font = pg.font.Font(None, 80)
 
     enn = pg.Surface((20, 20))
-    pg.draw.circle(enn, (255, 0, 0), (10, 10), 10)
+    pg.draw.circle(enn, (0, 255, 0), (10, 10), 10)
     enn.set_colorkey((0, 0, 0))
 
     tmr = 0
